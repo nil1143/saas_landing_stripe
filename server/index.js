@@ -7,7 +7,7 @@ const corsOptions = {
   origin: ["http://localhost:5173"],
 };
 const PORT= process.env.PORT || 3000
-
+const url = 'https://sass-landing-stripe-backend.onrender.com'
 
 app.use(cors(corsOptions));
 
