@@ -9,7 +9,10 @@
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix --production"
   },
   "dependencies": {
     "axios": "^1.7.7",
