@@ -10,10 +10,11 @@ import { Link } from "react-router-dom";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
+  const backURL = "https://sass-landing-stripe-backend.onrender.com/subscribe";
 
   const fetchAPI = async () => {
-    const res = await axios.get("/subscribe");
-    console.log(res)
+    const res = await axios.get(backURL);
+    console.log(res);
   };
 
   useEffect(() => {
@@ -156,32 +157,15 @@ const Pricing = () => {
                   </ul>
 
                   <div className="mt-10 flex w-full justify-center">
-                    {/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
-
-                    {/* {plans.priceMonthly ? (
-                      <Button icon={plan.icon}>Get started</Button>
-                    ) : (
-                      <Button icon={plan.icon}>Get started</Button>
-                    )} */}
-                    {/* {plan.priceYearly ? (
-                      <Link to={plan.linkYearly}>
-                        <Button icon={plan.icon}>Get started</Button>
-                      </Link>
-                    ) : (
-                      <Link to={plan.linkMonthly}>
-                        <Button icon={plan.icon}>Get started</Button>
-                      </Link> */}
-                      
-                      {!monthly ? (
-                      <a href={`/subscribe${plan.linkYearly}`}>
+                    {!monthly ? (
+                      <a href={`${backURL}${plan.linkYearly}`}>
                         <Button icon={plan.icon}>Get started</Button>
                       </a>
                     ) : (
-                      <a href={`/subscribe${plan.linkMonthly}`}>
+                      <a href={`${backURL}${plan.linkMonthly}`}>
                         <Button icon={plan.icon}>Get started</Button>
                       </a>
                     )}
-                    
                   </div>
 
                   {index === 1 && (
