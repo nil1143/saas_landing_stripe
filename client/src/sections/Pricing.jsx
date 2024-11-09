@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
-  const backURL = "https://sass-landing-stripe-backend.onrender.com/subscribe";
+  const backURL = "https://sass-landing-stripe.onrender.com/subscribe";
 
   const fetchAPI = async () => {
     const res = await axios.get(backURL);
@@ -158,11 +158,11 @@ const Pricing = () => {
 
                   <div className="mt-10 flex w-full justify-center">
                     {!monthly ? (
-                      <a href={`${backURL}${plan.linkYearly}`}>
+                      <a href={`${backURL}${plan.linkYearly}`} target="_blank" rel="noopener noreferrer">
                         <Button icon={plan.icon}>Get started</Button>
                       </a>
                     ) : (
-                      <a href={`${backURL}${plan.linkMonthly}`}>
+                      <a href={`${backURL}${plan.linkMonthly}`} target="_blank" rel="noopener noreferrer">
                         <Button icon={plan.icon}>Get started</Button>
                       </a>
                     )}

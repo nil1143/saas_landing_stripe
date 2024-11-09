@@ -1,18 +1,17 @@
 const express = require("express");
 const app = express();
 require("dotenv").config();
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY)
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const cors = require("cors");
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["https://sass-landing-stripe-frontend.onrender.com"],
+  // origin: ["http://localhost:5173"],
 };
-const PORT= process.env.PORT || 3000
-const url = 'https://sass-landing-stripe-backend.onrender.com'
+const PORT = process.env.PORT || 3000;
+const devUrl = "https://sass-landing-stripe.onrender.com";
+const prodUrl = "http://localhost:3000";
 
 app.use(cors(corsOptions));
-
-  // "type": "module",
-
 
 // app.set("view engine", "ejs");
 
@@ -63,25 +62,29 @@ app.get("/subscribe", async (req, res) => {
     line_items: [
       {
         price: priceId,
-        quantity: 1
-      }
+        quantity: 1,
+      },
     ],
-    success_url: 'http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}',
-    cancel_url: 'http://localhost:3000/cancel'
-  })
+    // success_url:
+    //   "http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}",
+    // cancel_url: "http://localhost:3000/cancel",
+    success_url:
+      `${devURL}/success?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${devURL}/cancel`,
+  });
 
-  console.log(session)
-  res.redirect(session.url)
+  console.log(session);
+  res.redirect(session.url);
 });
 
-app.get('/success', async (req, res) => {
-  //const session = await stripe.checkout.sessions.retrieve(req.query.session_id, { expand: ['subscription', 'subscription.plan.product'] })
+app.get("/success", async (req, res) => {
+  res.send("Subscribed successfully! You can close this tab.");
+});
 
-  res.send('Subscribed successfully')
-})
+app.get("/cancel", (req, res) => {
+  res.redirect(corsOptions.origin);
+});
 
-app.get('/cancel', (req, res) => {
-  res.redirect(corsOptions.origin)
-})
-
-app.listen(PORT, () => console.log("Server started at http://localhost:" + PORT));
+app.listen(PORT, () =>
+  console.log("Server started at http://localhost:" + PORT)
+);
