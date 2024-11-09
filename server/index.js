@@ -69,8 +69,8 @@ app.get("/subscribe", async (req, res) => {
     //   "http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}",
     // cancel_url: "http://localhost:3000/cancel",
     success_url:
-      `${devURL}/success?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${devURL}/cancel`,
+      `${devUrl}/success?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${devUrl}/cancel`,
   });
 
   console.log(session);
