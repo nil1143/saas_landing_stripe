@@ -14,7 +14,12 @@ const Download = () => {
         <div className="flex items-center">
           <div className="relative mr-6 flex-540 max-xl:flex-280 max-xl:280 max-lg:flex256 max-md:flex-100">
             <div className="mb-10">
-              <img src="./images/cyber-cat.svg" width={160} height={55} alt="logo" />
+              <img
+                src="./images/cyber-cat.svg"
+                width={160}
+                height={55}
+                alt="logo"
+              />
             </div>
 
             <p className="body-1 mb-10 max-w-md">

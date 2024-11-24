@@ -17,12 +17,7 @@ const Features = () => {
                 <div className="w-full flex justify-start items-start">
                   <div className="-ml-3 mb-12 flex flex-col items-center justify-center">
                     <div className="w-0.5 h-16 bg-s3" />
-                    <img
-                      width="112"
-                      height="112"
-                      src={icon}
-                      alt={title}
-                    />
+                    <img width="120" height="120" src={icon} alt={title} />
                   </div>
                 </div>
                 <p className="caption mb-5 max-md:mb-6">{caption}</p>
@@ -34,7 +29,7 @@ const Features = () => {
               </div>
             ))}
             <ul className="relative flex justify-around flex-grow px-[5%] border-2 border-s3 rounded-7xl max-md:hidden">
-              <div className="absolute bg-s3/20 top-[38%] left-0 right-0 w-full h-[1px] z-10" />
+              {/* <div className="absolute bg-s3/20 top-[38%] left-0 right-0 w-full h-[1px] z-10" /> */}
 
               {details.map(({ id, icon, title }) => (
                 <li key={id} className="relative pt-16 px-4 pb-14">
@@ -42,10 +37,10 @@ const Features = () => {
 
                   <div className="flex items-center justify-center mx-auto mb-3 border-2 border-s2 rounded-full hover:border-s4 transition-all duration-500 shadow-500 size-20">
                     <img
-                      width='112'
-                      height='112'
+                      width="112"
+                      height="112"
                       src={icon}
-                      alt={title}
+                      alt="feature button"
                       // className="size-17/20 object-contain z-20"
                     />
                   </div>
