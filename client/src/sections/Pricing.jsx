@@ -89,6 +89,8 @@ const Pricing = () => {
                   )}
                 >
                   <img
+                    width="120"
+                    height="120"
                     src={plan.logo}
                     alt={plan.title}
                     className={clsx(
@@ -158,13 +160,21 @@ const Pricing = () => {
                     ))}
                   </ul>
 
-                  <div className="mt-10 flex w-full jfustify-center">
+                  <div className="mt-10 flex w-full justify-center">
                     {!monthly ? (
-                      <a href={`${backURL}${plan.linkYearly}`} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={`${backURL}${plan.linkYearly}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <Button icon={plan.icon}>Get started</Button>
                       </a>
                     ) : (
-                      <a href={`${backURL}${plan.linkMonthly}`} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={`${backURL}${plan.linkMonthly}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <Button icon={plan.icon}>Get started</Button>
                       </a>
                     )}

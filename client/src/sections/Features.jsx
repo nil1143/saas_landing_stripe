@@ -18,8 +18,10 @@ const Features = () => {
                   <div className="-ml-3 mb-12 flex flex-col items-center justify-center">
                     <div className="w-0.5 h-16 bg-s3" />
                     <img
+                    width='112'
+                    height='112'
                       src={icon}
-                      className="size-28 object-contain"
+                      className=" object-contain"
                       alt={title}
                     />
                   </div>
@@ -39,6 +41,8 @@ const Features = () => {
 
                   <div className="flex items-center justify-center mx-auto mb-3 border-2 border-s2 rounded-full hover:border-s4 transition-all duration-500 shadow-500 size-20">
                     <img
+                    // width='40'
+                    // height='40'
                       src={icon}
                       alt={title}
                       className="size-17/20 object-contain z-20"
