@@ -24,7 +24,7 @@ const Footer = () => {
                   <img
                     src={icon}
                     alt={title}
-                    className="size-1/3 object-contain"
+                    className="size-1/2 object-contain"
                   />
                 </a>
               </li>

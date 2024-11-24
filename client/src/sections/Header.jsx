@@ -20,6 +20,7 @@ const Header = () => {
 
   const NavLink = ({ title }) => (
     <LinkScroll
+      href="#title"
       onClick={() => setIsOpen(false)}
       to={title}
       offset={-100}
@@ -40,7 +41,7 @@ const Header = () => {
       )}
     >
       <div className="container flex h-14 items-center max-lg:px-5">
-        <a className="lg:hidden flex-1 cursor-pointer z-2">
+        <a href="/" className="lg:hidden flex-1 cursor-pointer z-2">
           <img src="/images/cyber-cat.svg" width={115} height={55} alt="logo" />
         </a>
 
@@ -61,6 +62,7 @@ const Header = () => {
 
                 <li className="nav-logo">
                   <LinkScroll
+                  href="#hero"
                     to="hero"
                     offset={-250}
                     spy

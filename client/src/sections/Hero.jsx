@@ -17,15 +17,17 @@ const Hero = () => {
             <p className="max-w-440 mb-14 body-1 max-md:mb-10">
                 We designed nilAI Video Editor to be an easy to use, quick to learn and surprisingly powerful.
             </p>
-            <LinkScroll to="features" offset={-100} spy smooth>
+            <LinkScroll href="#features" to="features" offset={-100} spy smooth>
                 <Button icon="./images/zap.svg">Try it now</Button>
             </LinkScroll>
           </div>
 
-          <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
-            <img
+          <div className="container absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res ">
+            <img 
+              width="1230"
+              height="auto"
               src='./images/hero.webp'
-              className="size-1230 max-lg:h-auto"
+              className="max-lg:h-auto"
               alt='hero'
             />
           </div>

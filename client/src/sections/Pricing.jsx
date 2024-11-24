@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
   const backURL = "https://sass-landing-stripe.onrender.com/subscribe";
+  const frontURL = "https://sass-landing-stripe-frontend.onrender.com";
 
   const fetchAPI = async () => {
     const res = await axios.get(backURL);
@@ -24,6 +25,7 @@ const Pricing = () => {
     <section>
       <Element name="pricing">
         <div className="container mb-2">
+          {/* fix */}
           <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
             <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
               Flexible pricing for teams of all sizes
@@ -156,7 +158,7 @@ const Pricing = () => {
                     ))}
                   </ul>
 
-                  <div className="mt-10 flex w-full justify-center">
+                  <div className="mt-10 flex w-full jfustify-center">
                     {!monthly ? (
                       <a href={`${backURL}${plan.linkYearly}`} target="_blank" rel="noopener noreferrer">
                         <Button icon={plan.icon}>Get started</Button>
