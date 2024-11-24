@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="container absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res ">
             <img 
               width="1230"
-              height="auto"
+              height="1080"
               src='./images/hero.webp'
               className="max-lg:h-auto"
               alt='hero'
