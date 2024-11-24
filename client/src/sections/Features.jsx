@@ -47,8 +47,6 @@ const Features = () => {
                       src={icon}
                       alt={title}
                       // className="size-17/20 object-contain z-20"
-                      className="z-20"
-
                     />
                   </div>
 

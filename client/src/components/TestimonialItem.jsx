@@ -18,7 +18,6 @@ const TestimonialItem = ({ item, containerClassName }) => {
             height='112'
             src={item.avatarUrl}
             alt={item.name}
-            className=" object-cover"
           />
         </div>
         <div>
