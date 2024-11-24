@@ -21,7 +21,6 @@ const Features = () => {
                       width="112"
                       height="112"
                       src={icon}
-                      // className=" object-contain"
                       alt={title}
                     />
                   </div>
@@ -43,8 +42,8 @@ const Features = () => {
 
                   <div className="flex items-center justify-center mx-auto mb-3 border-2 border-s2 rounded-full hover:border-s4 transition-all duration-500 shadow-500 size-20">
                     <img
-                      width='40'
-                      height='40'
+                      width='112'
+                      height='112'
                       src={icon}
                       alt={title}
                       // className="size-17/20 object-contain z-20"
