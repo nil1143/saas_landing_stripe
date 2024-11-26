@@ -57,7 +57,7 @@ The nilAI is a modern way designed single-page website for your SaaS product or 
 ### Project Goals
 * The Goal of the project is to make a website designed in the modern way. 
 
-* It has been designed for people who want to advertise their products or promote themself!
+* It has been created for people who want to advertise their products or promote themself!
 
 * For the learning purposes.
 
@@ -66,12 +66,12 @@ The nilAI is a modern way designed single-page website for your SaaS product or 
 |Story No.|Story|
 | ------------- | ------------- |
 |1|As an user, <br> I want smoothly navigate between the sections <br>so that I can see the website content. <br><br>I know I am done when the user is navigated to the desired sections <br> after clicking Navbar item. |
-|2|As an user, <br> I want to check features<br> so that I can acklowledge what is the project is about. <br><br>I know I am done when the when the user scrolled down a website <br> or been navigated from the Navbar to the Features Section. |
-|3|As an user, <br> I want to read FAQ<br> so that I can acklowledge what's the most frequently asked questions.<br><br>I know I am done when the when the user scrolled down the website <br> or been navigated from the Navbar to the FAQ section. |
+|2|As an user, <br> I want to check features<br> so that I can acklowledge what the project is about. <br><br>I know I am done when the when the user scrolled down a website <br> or been navigated from the Navbar to the Features Section. |
+|3|As an user, <br> I want to read FAQ<br> so that I can acklowledge what's the most frequently asked questions.<br><br>I know I am done when the user scrolled down the website <br> or been navigated from the Navbar to the FAQ section. |
 |4|As an user, <br> I want to check prices<br> so that I can choose the plan perfectly suits my needs.<br><br>I know I am done when the user scrolled down the website or been <br> navigated from the Navbar to the Pricing Section. |
-|5|As an user, <br> I want to have a choice in subscriptions<br> so that I can decide between monthly or annual plan.<br><br>I know I am done when the user click on toggle bar in Pricing section <br> so that he can see all the possible plans. |
+|5|As an user, <br> I want to have a choice in subscriptions<br> so that I can decide between monthly or annual plan.<br><br>I know I am done when the user click on toggle bar in Pricing section <br> so that he can see all the available plans. |
 |6|As an user, <br> I want to pay for plan I chose.<br> so that I can enjoy the product.<br><br>I know I am done when the user has been directed to new tab with <br> the Stripe Test Payment after clicking selected plan. |
-|7|As an user, <br> I want to download the product<br> so that I can test it on my device.<br><br>I know I am done when the when the user scrolled down the website <br> or been navigated from the Navbar to the Download Section |
+|7|As an user, <br> I want to download the product<br> so that I can test it on my device.<br><br>I know I am done when the when the user scrolled down the website <br> or been navigated from the Navbar to the Download Section. |
 ## Design
 
 ### Colour Scheme
