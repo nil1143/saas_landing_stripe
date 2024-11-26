@@ -62,6 +62,7 @@ The nilAI is a modern way designed single-page website for your SaaS product or 
 * For the learning purposes.
 
 ### User Stories
+
 |Story No.|Story|
 | ------------- | ------------- |
 |1|As an user, <br> I want to be able to play the music<br> so that I can listen to my favorite songs. <br><br>I know I am done when the user can play the music<br>from Player or by clicking on song on Home screen. |
@@ -94,9 +95,7 @@ The Google Fonts used in this project:
 ### Reuseable Components
 Some examples of reuseable components used in this project:
 
-
-
-<table border="0" >
+<table border="0"  >
  <tr align="center">
     <td><b style="font-size:15px">Button #1</b></td>
     <td><b style="font-size:15px">Button #2</b></td>
@@ -122,6 +121,7 @@ Some examples of reuseable components used in this project:
 
  </tr>
 </table>
+
 
 ### Pricing
 
