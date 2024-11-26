@@ -65,12 +65,13 @@ The nilAI is a modern way designed single-page website for your SaaS product or 
 
 |Story No.|Story|
 | ------------- | ------------- |
-|1|As an user, <br> I want to be able to play the music<br> so that I can listen to my favorite songs. <br><br>I know I am done when the user can play the music<br>from Player or by clicking on song on Home screen. |
-|2|As an user, <br> I want to be able to pause the music<br> so that I can come back and continue my listening. <br><br>I know I am done when the user can pause the music<br>in the Player. |
-|3|As an user, <br> I want to be able to play previous/next song<br> so that I can repeat or skip the song I want. <br><br>I know I am done when Player's previous/next buttons <br>are working as desired. |
-|4|As an user, <br> I want to be able to open the Album details<br> so that I can see what I can listen to.<br><br>I know I am done when user is navigated to Album item<br> after clicking on it. |
-|5|As an user, <br> I want to be play any song by clicking on it on<br> Home screen<br> so that will make it simple.<br><br>I know I am done when music plays after user clicked on <br>any song on Home screen. |
-
+|1|As an user, <br> I want smoothly navigate between the sections <br>so that I can see the website content. <br><br>I know I am done when the user is navigated to the desired sections <br> after clicking Navbar item. |
+|2|As an user, <br> I want to check features<br> so that I can acklowledge what is the project is about. <br><br>I know I am done when the when the user scrolled down a website <br> or been navigated from the Navbar to the Features Section. |
+|3|As an user, <br> I want to read FAQ<br> so that I can acklowledge what's the most frequently asked questions.<br><br>I know I am done when the when the user scrolled down the website <br> or been navigated from the Navbar to the FAQ section. |
+|4|As an user, <br> I want to check prices<br> so that I can choose the plan perfectly suits my needs.<br><br>I know I am done when the user scrolled down the website or been <br> navigated from the Navbar to the Pricing Section. |
+|5|As an user, <br> I want to have a choice in subscriptions<br> so that I can decide between monthly or annual plan.<br><br>I know I am done when the user click on toggle bar in Pricing section <br> so that he can see all the possible plans. |
+|6|As an user, <br> I want to pay for plan I chose.<br> so that I can enjoy the product.<br><br>I know I am done when the user has been directed to new tab with <br> the Stripe Test Payment after clicking selected plan. |
+|7|As an user, <br> I want to download the product<br> so that I can test it on my device.<br><br>I know I am done when the when the user scrolled down the website <br> or been navigated from the Navbar to the Download Section |
 ## Design
 
 ### Colour Scheme
