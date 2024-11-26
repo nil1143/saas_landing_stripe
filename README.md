@@ -125,7 +125,7 @@ Some examples of reuseable components used in this project:
 
 ### Pricing
 
-<img src="client/public/readme/pricing-section.png" alt="Alt Text" width="800" height="600">
+<img src="client/public/readme/pricing-section.png" alt="Alt Text" width="800" >
 <br><br>
 
 ### Stripe Payment Gateway
@@ -210,7 +210,7 @@ Render you to Test Stripe Gateway, availbility to make a test payment!
 - I have tested that the correct data is passed when the forms are submitted. 
 - I have tested a navigation in the header to make sure it navigate you to correct sections.
 - I have tested that pricing Monthly/Yearly button counting values correctly.
-- I have tested that chosen play navigates you to Stripe Payment Gateway.
+- I have tested that chosen subscription plan navigates you to Stripe Payment Gateway.
 - I have tested that you are able to make a test payment with message received.
 
 
