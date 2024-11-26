@@ -74,18 +74,18 @@ The nilAI is a modern way designed single-page website for your SaaS product or 
 
 ### Colour Scheme
 
-<img src="client/public/readme/nilai-palette.png" alt="Alt Text" width="700" height="300">
+<img src="client/public/readme/nilai-palette.png" alt="Alt Text" width="900" height="400">
 
 ### Fonts
 
 The Google Fonts used in this project:
 * Poppins
-
+<br><br>
 <img src="client/public/readme/font-poppins.png" alt="Alt Text">
 
 
 * Inter
-
+<br><br>
 <img src="client/public/readme/font-inter.png" alt="Alt Text">
 
 ## Features
