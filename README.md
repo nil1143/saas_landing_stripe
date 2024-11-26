@@ -20,6 +20,7 @@
 * [Features](#Features)
     * [Features](#Features)
         * [Reuseable Components](#reuseable-components)
+        * [Pricing](#pricing)
         * [Stripe Payment Gateway](#stripe-payment-gateway)
         * [Responsive View](#responsive-view)
     * [Future Features](#Future-Features)
@@ -38,7 +39,9 @@
 
 ### Description
 
-The nilAI is a modern way designed website for your SaaS product or another advertisment. Beautiful reuseable components make it smooth to navigate. With fully working backend you are available to make a test payment in Stripe Payment Gateway- very well known payment gatway in the web industry.
+The nilAI is a modern way designed single-page website for your SaaS product or another advertisment. Beautiful reuseable components make it smooth to navigate. With fully working backend you are available to make a test payment in Stripe Payment Gateway- very well known payment gatway in the web industry.
+
+<br><br>
 
 ### Built With
 
@@ -71,7 +74,7 @@ The nilAI is a modern way designed website for your SaaS product or another adve
 
 
 ### Reuseable Components
-Some examples of reuseable components mounted in this project:
+Some examples of reuseable components used in this project:
 
 
 
@@ -101,6 +104,11 @@ Some examples of reuseable components mounted in this project:
 
  </tr>
 </table>
+
+### Pricing
+
+<img src="client/public/readme/pricing-section.png" alt="Alt Text" width="800" height="600">
+<br><br>
 
 ### Stripe Payment Gateway
 Render you to Test Stripe Gateway, availbility to make a test payment!
