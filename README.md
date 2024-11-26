@@ -39,7 +39,7 @@
 
 ### Description
 
-The nilAI is a modern way designed single-page website for your SaaS product or another advertisment. Beautiful reuseable components make it smooth to navigate. With fully working backend you are available to make a test payment in Stripe Payment Gateway- very well known payment gatway in the web industry.
+The nilAI is a modern way designed single-page website for your SaaS product or another advertisment. Beautiful reuseable components make it smooth to navigate. With fully working backend you are able to make a test payment in Stripe Payment Gateway- very well known payment gatway in the web industry.
 
 <br><br>
 
