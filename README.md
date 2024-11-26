@@ -13,10 +13,10 @@
 * [Project Goals and UX](#project-goals-and-ux)
     * [Project Goals](#Project-Goals)
     * [User Stories](#User-Stories)
-<!-- * [Design](#Design)
-    * [Wireframes](#Wireframes)
+* [Design](#Design)
+    <!-- * [Wireframes](#Wireframes) -->
     * [Colour Scheme](#Colour-Scheme)
-    * [Fonts](#Fonts) -->
+    * [Fonts](#Fonts)
 * [Features](#Features)
     * [Features](#Features)
         * [Reuseable Components](#reuseable-components)
@@ -69,6 +69,24 @@ The nilAI is a modern way designed single-page website for your SaaS product or 
 |3|As an user, <br> I want to be able to play previous/next song<br> so that I can repeat or skip the song I want. <br><br>I know I am done when Player's previous/next buttons <br>are working as desired. |
 |4|As an user, <br> I want to be able to open the Album details<br> so that I can see what I can listen to.<br><br>I know I am done when user is navigated to Album item<br> after clicking on it. |
 |5|As an user, <br> I want to be play any song by clicking on it on<br> Home screen<br> so that will make it simple.<br><br>I know I am done when music plays after user clicked on <br>any song on Home screen. |
+
+## Design
+
+### Colour Scheme
+
+<img src="client/public/readme/nilai-palette.png" alt="Alt Text" width="700" height="300">
+
+### Fonts
+
+The Google Fonts used in this project:
+* Poppins
+
+<img src="client/public/readme/font-poppins.png" alt="Alt Text">
+
+
+* Inter
+
+<img src="client/public/readme/font-inter.png" alt="Alt Text">
 
 ## Features
 
