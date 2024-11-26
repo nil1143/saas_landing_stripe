@@ -168,6 +168,9 @@ Render you to Test Stripe Gateway, availbility to make a test payment!
 #### Home Section
 <img src="client/public/readme/mobile-home.png" alt="Alt Text" width="300" height="600">
 
+#### Mobile Navigation Toggle Button
+<img src="client//public/readme/mobile-navbar.png" alt="Alt Text" width="300" height="600">
+
 #### Features Section
 <img src="client//public/readme/mobile-features.png" alt="Alt Text" width="300" height="600">
 
