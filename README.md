@@ -40,7 +40,7 @@
 
 ### Description
 
-The nilAI is a React application designed in modern way, single-page website for your SaaS product or another advertisment. Beautiful reuseable components make it smooth to navigate. With fully working backend you are able to make a test payment in Stripe Payment Gateway- very well known payment gatway in the web industry.
+nilAI is a modern React application designed as a sleek, single-page website ideal for showcasing your SaaS product or other advertisements. It features beautifully reusable components for smooth navigation and user experience. Equipped with a fully functional backend, the application allows users to make test payments via the Stripe Payment Gateway, a widely recognized and trusted solution in the web industry.
 
 <br><br>
 
