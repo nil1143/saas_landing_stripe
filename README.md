@@ -1,6 +1,6 @@
 <h1 align="center">nilAI</h1>
 
- The live link can be found here - [nilAI Landing Page](https://sass-landing-stripe-frontend.onrender.com/)
+ The live link can be found here - [nilAI Landing Page](https://saas-landing-pi.vercel.app/)
 
 ![index_button](client/public/readme/view.png)
 
@@ -21,8 +21,6 @@
     * [Features](#Features)
         * [Reuseable Components](#reuseable-components)
         * [Pricing](#pricing)
-        * [Stripe Payment Gateway](#stripe-payment-gateway)
-        * [Test payment](#test-payment)
         * [Responsive View](#responsive-view)
     * [Future Features](#Future-Features)
 * [Testing](#Testing)
