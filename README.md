@@ -128,27 +128,6 @@ Some examples of reuseable components used in this project:
 ### Pricing
 
 <img src="client/public/readme/pricing-section.png" alt="Alt Text" width="800" >
-<br><br>
-
-### Stripe Payment Gateway
-Render you to Test Stripe Gateway, availbility to make a test payment!
-
-<img src="client/public/readme/stripe.png" alt="Alt Text" width="800" >
-<br><br>
-
-### Test Payment
-
-Simulate a payment with the test card!
-
-* When testing interactively, use a card number, such as <br><b>4242 4242 4242 4242</b><br>
-or<br>
-<b>5555 5555 5555 4444</b>
-
-* Use a valid future date, such as  11/<b>27</b>. (current year or higher!)
-
-* Use <b>any</b> value you like for other form fields
-
-<img src="client/public/readme/test-card.png" alt="Alt Text" >
 
 <br><br>
 ### Responsive View
