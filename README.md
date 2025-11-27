@@ -38,7 +38,9 @@
 
 ### Description
 
-nilAI is a modern React application designed as a sleek, single-page website ideal for showcasing your SaaS product or other advertisements. It features beautifully reusable components for smooth navigation and user experience. Equipped with a fully functional backend, the application allows users to make test payments via the Stripe Payment Gateway, a widely recognized and trusted solution in the web industry.
+nilAI is a modern, responsive landing page built with React and Tailwind CSS. 
+It showcases a component-based architecture with reusable UI elements, smooth 
+animations, and production-ready code patterns.
 
 <br><br>
 
@@ -46,19 +48,24 @@ nilAI is a modern React application designed as a sleek, single-page website ide
 
 <div align="center">
 
-[![React][React.js]][React-url] [![Tailwind][Tailwind]][Tailwind-url] [![Express][Express]][Express-url] [![Node][Node]][Node-url] 
+- React 18
+- Tailwind CSS
+- Vite
+
+[![React][React.js]][React-url] [![Tailwind][Tailwind]][Tailwind-url]
 
 </div>
 <br><br>
 
-## Project Goals and UX
+## Project Goals
 
-### Project Goals
-* The Goal of the project is to make a website designed in the modern way. 
+Built to demonstrate modern frontend development skills:
 
-* It has been created for people who want to advertise their products or promote themself!
-
-* For the learning purposes.
+- ✅ **Component Architecture** - Modular, reusable UI components
+- ✅ **Performance** - 91+ Lighthouse scores
+- ✅ **Accessibility** - 100% accessibility rating
+- ✅ **Responsive Design** - Mobile-first approach
+- ✅ **Design System** - Consistent colors, typography, spacing
 
 ### User Stories
 
@@ -69,31 +76,50 @@ nilAI is a modern React application designed as a sleek, single-page website ide
 |3|As an user, <br> I want to read FAQ<br> so that I can acklowledge what's the most frequently asked questions.<br><br>I know I am done when the user scrolled down the website <br> or been navigated from the Navbar to the FAQ section. |
 |4|As an user, <br> I want to check prices<br> so that I can choose the plan perfectly suits my needs.<br><br>I know I am done when the user scrolled down the website or been <br> navigated from the Navbar to the Pricing Section. |
 |5|As an user, <br> I want to have a choice in subscriptions<br> so that I can decide between monthly or annual plan.<br><br>I know I am done when the user click on toggle bar in Pricing section <br> so that he can see all the available plans. |
-|6|As an user, <br> I want to pay for plan I chose.<br> so that I can enjoy the product.<br><br>I know I am done when the user has been directed to new tab with <br> the Stripe Test Payment after clicking selected plan. |
-|7|As an user, <br> I want to download the product<br> so that I can test it on my device.<br><br>I know I am done when the when the user scrolled down the website <br> or been navigated from the Navbar to the Download Section. |
+|6|As an user, <br> I want to download the product<br> so that I can test it on my device.<br><br>I know I am done when the when the user scrolled down the website <br> or been navigated from the Navbar to the Download Section. |
 ## Design
 
 ### Colour Scheme
 
+**Color Palette**
+- 9-color system (#C8E480 → #080D27)
+- High contrast ratios
+- Dark theme optimized
 <img src="client/public/readme/nilai-palette.png" alt="Alt Text" width="900" height="400">
 
 ### Fonts
 
+**Typography**
 The Google Fonts used in this project:
-* Poppins
+* Poppins (headings)
 <br><br>
 <img src="client/public/readme/font-poppins.png" alt="Alt Text">
 
 
-* Inter
+* Inter (body text)
 <br><br>
 <img src="client/public/readme/font-inter.png" alt="Alt Text">
 
 ## Features
 
 
-### Reuseable Components
-Some examples of reuseable components used in this project:
+### Component Library
+Built reusable components following modern React patterns:
+
+**Buttons**
+- 3 variants with consistent styling
+- Hover/active states
+- Icon integration
+
+**Pricing Section**
+- Monthly/annual toggle
+- Responsive grid layout
+- Animated transitions
+
+**FAQ Accordion**
+- Smooth expand/collapse
+- Keyboard accessible
+- ARIA compliant
 
 <table border="0"  >
  <tr align="center">
@@ -199,6 +225,11 @@ Some examples of reuseable components used in this project:
 #### Lighthouse
 <img src="client//public/readme/lighthouse-nilai.png" alt="Alt Text">
 
+- ⚡ **91 Performance Score**
+- ♿ **100 Accessibility Score**
+- ⚙️ **100 Best Practices**
+- 🔍 **100 SEO**
+
 ### Manual Testing
 - I have tested that this page works in different web browsers.
 - I have tested that the project is responsive and works with different device sizes. Looks good and functions as usual. 
@@ -207,8 +238,6 @@ Some examples of reuseable components used in this project:
 - I have tested that the correct data is passed when the forms are submitted. 
 - I have tested a navigation in the header to make sure it navigate you to correct sections.
 - I have tested that pricing Monthly/Yearly button counting values correctly.
-- I have tested that chosen subscription plan navigates you to Stripe Payment Gateway.
-- I have tested that you are able to make a test payment with message received.
 
 
 ## Deployment
