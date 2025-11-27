@@ -46,15 +46,13 @@ animations, and production-ready code patterns.
 
 ### Built With
 
-<div align="center">
 
-- React 18
-- Tailwind CSS
-- Vite
 
-[![React][React.js]][React-url] [![Tailwind][Tailwind]][Tailwind-url]
+ <p>React 18</p>
 
-</div>
+ <p>Tailwind CSS</p>
+ <p>Vite</p>
+
 <br><br>
 
 ## Project Goals
